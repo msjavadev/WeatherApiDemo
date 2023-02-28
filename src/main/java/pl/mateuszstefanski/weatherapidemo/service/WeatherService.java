@@ -13,7 +13,7 @@ public class WeatherService {
 
     private final WeatherClient weatherClient;
 
-    public WeatherDto getWeather(String city) {
+    public WeatherDto getWeatherForCity(String city) {
         return weatherClient.getWeatherForCity(city);
     }
 }
